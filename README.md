@@ -7,9 +7,9 @@ Key metric: ROC AUC. Best model ≈ AUC 0.886 (XGBoost / Random Forest).
 
 ## Repo structure
 - code/ : R script with all steps (EDA, training, evaluation)
-- docs/ : Term paper PDF (+ optional slides)
-- submission/ : Kaggle submission file(s)
-- data/ : (optional) put CSVs here or download from Kaggle
+- docs/ : Term paper PDF 
+- submission/ : Kaggle submission file
+- data/ : train.csv & test.csv downloaded from Kaggle
 
 ## How to run
 1) Install R packages: tidyverse, tidymodels, skimr, janitor, GGally, vip, themis, corrplot, cowplot  
